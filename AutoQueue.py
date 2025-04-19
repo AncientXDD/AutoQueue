@@ -1,4 +1,3 @@
-
 import time
 import requests
 import base64
@@ -7,12 +6,12 @@ import threading
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
 from tkinter import ttk
-import sv_ttk  # pip install sv-ttk
+import sv_ttk  
 
 # Optional: apply dark title bar on Windows
 import sys
 try:
-    import pywinstyles  # pip install pywinstyles
+    import pywinstyles 
 except ImportError:
     pywinstyles = None
 
