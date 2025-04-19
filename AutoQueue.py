@@ -17,7 +17,7 @@ except ImportError:
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 LOCKFILE_PATH  = r"C:\Riot Games\League of Legends\lockfile"
-QUEUE_ID       = 420       # e.g. 420 = Ranked Solo/Duo
+#QUEUE_ID       = 420       # e.g. 420 = Ranked Solo/Duo
 REQUEUE_DELAY  = 1         # seconds between cancel + next queue
 HTTP_TIMEOUT   = 10        # seconds before an HTTP call to the client times out
 # ────────────────────────────────────────────────────────────────────────────────
