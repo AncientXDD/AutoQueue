@@ -63,8 +63,8 @@ def queue_loop(wait_secs):
             r = sess.post(f"{base}/lol-lobby/v2/lobby/matchmaking/search", timeout=HTTP_TIMEOUT)
             if r.status_code != 204:
                 log("🛑Not in Lobby")
-                stop()      # ← 停掉迴圈並把按鈕狀態切回 “Start”
-                return      # ← 跳出 queue_loop
+                stop()     
+                return      
 
             log(f"➡️  Queued")
         except Exception as e:
